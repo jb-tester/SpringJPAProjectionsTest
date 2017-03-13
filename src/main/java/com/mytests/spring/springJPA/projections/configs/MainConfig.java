@@ -16,7 +16,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
  */
 @Configuration
 @ComponentScan("com.mytests.spring.springJPA.projections.services")
-@EnableJpaRepositories(basePackages = {"com.mytests.spring.springJPA.projections.repositories"})
+@EnableJpaRepositories(basePackages = {"com.mytests.spring.springJPA.projections.repositories","com.mytests.spring.springJPA.projections.extra_repositories"})
 @EnableTransactionManagement
 public class MainConfig {
     @Bean
